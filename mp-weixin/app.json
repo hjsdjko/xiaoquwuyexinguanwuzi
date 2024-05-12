@@ -1,0 +1,100 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/wuzi/list",
+    "pages/wuzi/list2",
+    "pages/wuzi/add-or-update",
+    "pages/wuzi/detail",
+    "pages/wuziChuruInout/list",
+    "pages/wuziChuruInout/list2",
+    "pages/wuziChuruInout/add-or-update",
+    "pages/wuziChuruInout/detail",
+    "pages/wuziChuruInoutList/list",
+    "pages/wuziChuruInoutList/list2",
+    "pages/wuziChuruInoutList/add-or-update",
+    "pages/wuziChuruInoutList/detail",
+    "pages/wuziCollection/list",
+    "pages/wuziCollection/list2",
+    "pages/wuziCollection/add-or-update",
+    "pages/wuziCollection/detail",
+    "pages/wuziJuanzeng/list",
+    "pages/wuziJuanzeng/list2",
+    "pages/wuziJuanzeng/add-or-update",
+    "pages/wuziJuanzeng/detail",
+    "pages/wuziLiuyan/list",
+    "pages/wuziLiuyan/list2",
+    "pages/wuziLiuyan/add-or-update",
+    "pages/wuziLiuyan/detail",
+    "pages/wuziYuyue/list",
+    "pages/wuziYuyue/list2",
+    "pages/wuziYuyue/add-or-update",
+    "pages/wuziYuyue/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小区物业新冠疫情物资管理平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#9ad4ed",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/wuzi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "物资"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
